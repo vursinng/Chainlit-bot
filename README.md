@@ -39,7 +39,7 @@ This project demonstrates an interactive chatbot built using **Chainlit** for th
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/MuhammadUsmanGM/chainlit_bot.git
+git clone https://github.com/MuhammadUsmanGM/Chainlit-bot
 cd chatbot_project
 2. Install Dependencies
 bash
