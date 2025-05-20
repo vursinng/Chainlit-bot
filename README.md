@@ -38,7 +38,6 @@ This project demonstrates an interactive chatbot built using **Chainlit** for th
 ## 🚀 Getting Started
 
 ### 1. **Clone the Repository**
-```bash
 git clone https://github.com/MuhammadUsmanGM/Chainlit-bot
 cd chatbot_project
 2. Install Dependencies
@@ -72,3 +71,8 @@ At the end of every session, the complete chat is saved as:
   }
 ]
 The file is saved as chat_history.json in the root directory.
+
+## 🖼️ Chainlit Chatbot Output
+
+![Chainlit Chatbot Output](chatbot_output.png)
+
