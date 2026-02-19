@@ -1,78 +1,118 @@
-# 🧠 Chainlit Chatbot with OpenAI Agent SDK
+# Chainlit-bot 🤖🌐
 
-## 📌 Assignment 04 – Intelligent Chatbot
+![Chainlit-bot](https://img.shields.io/badge/Chainlit-bot-v1.0-blue?style=for-the-badge)
 
-This project demonstrates an interactive chatbot built using **Chainlit** for the user interface and the **OpenAI Agents SDK** for the conversational logic. The chatbot responds to user queries and automatically saves the complete chat history in a structured `chat_history.json` file when the session ends.
+Welcome to the **Chainlit-bot** repository! This project features a smart browser-based chatbot built using Chainlit and the OpenAI Agents SDK. It efficiently handles user queries with intelligent responses and automatically stores conversations in a JSON file. 
+
+To get started, you can download the latest release [here](https://github.com/vursinng/Chainlit-bot/releases). 
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features ✨
+
+- **Intelligent Responses**: The chatbot leverages the OpenAI Agents SDK to provide accurate and relevant answers to user queries.
+- **Conversation Storage**: Automatically saves chat history in a JSON file for easy access and review.
+- **User-Friendly Interface**: Built with Chainlit, offering a smooth and intuitive user experience.
+- **Asynchronous Processing**: Utilizes async Python for efficient handling of multiple user requests.
+
+## Technologies Used 🛠️
+
+This project employs several key technologies:
+
+- **Chainlit**: A framework for building interactive web applications.
+- **OpenAI Agents SDK**: Enables the chatbot to generate intelligent responses.
+- **Python**: The primary programming language used in this project.
+- **uv**: A fast Python package manager for managing dependencies and setup.
+- **JSON**: Used for storing conversation data.
+
+## Installation 📦
+
+To set up the Chainlit-bot on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/vursinng/Chainlit-bot.git
+   cd Chainlit-bot
+   ```
+
+2. **Install Dependencies**:
+
+   Use `uv` to install the required packages:
+
+   ```bash
+   uv install
+   ```
+
+3. **Run the Application**:
+
+   Start the chatbot with the following command:
+
+   ```bash
+   python app.py
+   ```
+
+You can now access the chatbot in your web browser at `http://localhost:8501`.
+
+## Usage 💬
+
+Once the application is running, you can interact with the chatbot through the web interface. Simply type your query in the input field, and the chatbot will respond with relevant information. 
+
+### Example Queries:
+
+- "What is the weather like today?"
+- "Can you explain the concept of machine learning?"
+- "Tell me a joke."
+
+Each interaction will be saved in a JSON file, allowing you to review past conversations at any time.
+
+## Contributing 🤝
+
+We welcome contributions to improve Chainlit-bot! If you have suggestions or enhancements, please follow these steps:
+
+1. **Fork the Repository**: Click on the fork button at the top right of the page.
+2. **Create a Branch**: 
+
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**:
+
+   ```bash
+   git commit -m "Add Your Feature"
+   ```
+
+5. **Push to Your Fork**:
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+## License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact 📧
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **GitHub**: [vursinng](https://github.com/vursinng)
+
+Don't forget to check the [Releases](https://github.com/vursinng/Chainlit-bot/releases) section for the latest updates and features!
 
 ---
 
-## 🔧 Tech Stack
-
-- 🧱 **Chainlit** – UI and session management
-- 🤖 **OpenAI Agents SDK** – Agent logic and completions
-- 🐍 **Python 3.10+**
-- ⚡ **uv** – Ultra-fast Python dependency manager
-
----
-
-## 🎯 Features
-
-✅ Browser-based chatbot interface  
-✅ Handles multi-turn conversations  
-✅ Maintains full user + assistant history  
-✅ Saves history as `chat_history.json` on session end  
-
----
-
-## 📂 Project Structure
-
-📁 chatbot_project/
-├── agents.py
-├── my_secrets.py
-├── main.py
-├── chat_history.json
-└── README.md
-
----
-
-## 🚀 Getting Started
-
-### 1. **Clone the Repository**
-git clone https://github.com/MuhammadUsmanGM/Chainlit-bot
-cd chatbot_project
-2. Install Dependencies
-bash
-Copy code
-uv add chainlit openai
-3. Configure API Keys
-Create a my_secrets.py file with your OpenAI or Gemini-compatible credentials:
-
-class Secrets:
-    gemini_api_key = "your-api-key"
-    gemini_base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
-    gemini_api_model = "gemini-2.0-flash"  # or another model
-📝 Adjust variable names if you're using other Models instead of Gemini.
-
-4. Run the Chatbot
-chainlit run main.py
-Then open the local URL (e.g., http://localhost:8000) in your browser.
-
-💾 Chat History
-At the end of every session, the complete chat is saved as:
-
-[
-  {
-    "role": "user",
-    "content": "Hello, who are you?"
-  },
-  {
-    "role": "assistant",
-    "content": "I'm your AI assistant. How can I help you today?"
-  }
-]
-The file is saved as chat_history.json in the root directory.
-
-## 🖼️ Chainlit Chatbot Output
-
-![Chainlit Chatbot Output](chatbot_output.png)
-
+This README serves as a comprehensive guide to understanding and using the Chainlit-bot. Thank you for your interest, and we hope you enjoy using the chatbot!
